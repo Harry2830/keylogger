@@ -5,12 +5,12 @@ import smtplib, ssl
 class send_mail:
         
     def sendEmail(message):
-        smtp_server = "smtp-relay.brevo.com"
-        port = 587
+        smtp_server = "sandbox.smtp.mailtrap.io"
+        port = 2525
 
-        sender_email = "haris.m0704@gmail.com"           #Put sender and receiver email the same for testing
-        password = "9Q7LMgtxrXkmdzW8"                  #Put password of the sender's email id
-        receiver_email = "celiwo9953@ziragold.com"
+        sender_email = "c1746505c14a91"           #Put sender and receiver email the same for testing
+        password = "14b48ad3b36bc1"                  #Put password of the sender's email id
+        receiver_email = "c1746505c14a91"
         
         
         context = ssl.create_default_context()
